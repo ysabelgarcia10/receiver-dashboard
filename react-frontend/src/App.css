@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100vw
+}
+
+.tables {
+  width: 30vw
+}
+.dashboard {
+  width: 70vw
+}
+
+.ant-table-wrapper {
+  width: 100%
+}
