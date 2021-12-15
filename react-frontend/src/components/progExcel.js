@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Table, Button, Upload } from "antd";
 import Icon from "@ant-design/icons";
 import { ExcelRenderer } from "react-excel-renderer";
+import { fetchProgData } from "../helpers/fetchData"
 
 export default class ExcelPage extends Component {
   constructor(props) {
@@ -134,6 +135,7 @@ export default class ExcelPage extends Component {
     //submit to API
     //if successful, banigate and clear the data
     //this.setState({ rows: [] })
+    fetchProgData();
   };
 
   handleDelete = key => {
