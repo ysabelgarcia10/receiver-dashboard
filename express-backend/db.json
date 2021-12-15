@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Seawall",
+    "city": "Vancouver",
+    "lat": 45.631060,
+    "lng": -122.671570,
+    "day": "day1",
+    "img": "https://image.shutterstock.com/image-photo/seawall-rock-wall-sunset-famous-260nw-374010766.jpg"
+  },
+  {
+    "name": "Gastown",
+    "city": "Vancouver",
+    "lat": 49.2836567,
+    "lng": -123.1062358,
+    "day": "day1",
+    "img": "https://afar-production.imgix.net/uploads/images/post_images/images/wHboEU4DJH/original_f8f3aff580ff4c508a6a42f909cf41e3.jpg?1455149098?ixlib=rails-0.3.0&auto=format%2Ccompress&crop=entropy&fit=crop&h=719&q=80&w=954"
+  },
+  {
+    "name": "Metrotown",
+    "city": "Burnaby",
+    "lat": 49.226443308195215,
+    "lng": -123.00622783250444,
+    "day": "day2",
+    "img": "https://retailinsider.b-cdn.net/wp-content/uploads/2020/12/metropolis-at-metrotown-ext-2.jpg"
+  },
+  {
+    "name": "Newtown",
+    "city": "Vancouver",
+    "lat": 49.28047855533281,
+    "lng": -123.10116286009998,
+    "day": "day2",
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/ju_1_ybbWzx3k0HktO9yBg/l.jpg"
+  },
+  {
+    "name": "Jam Cafe",
+    "city": "Vancouver",
+    "lat": 49.28091185645992, 
+    "lng": -123.1096296547718,
+    "day": "day2",
+    "img": null
+  },
+  {
+    "name": "Cafe Medina",
+    "city": "Vancouver",
+    "lat": 49.28088386065077, 
+    "lng": -123.1169681791689,
+    "day": "day3",
+    "img": "https://images.squarespace-cdn.com/content/v1/55e0b3d2e4b075a192d44dce/1440794136525-3FOW21YA8VJ0ITZ3Q6HB/4_Medina-e83754c99c.gif"
+  },
+  {
+    "name": "UBC",
+    "city": "Vancouver",
+    "lat": 49.25230921154789, 
+    "lng": -123.24906229498411,
+    "day": "day3",
+    "img": "https://cdn.visit.ubc.ca/wp-content/uploads/2019/07/rosegarden_4-1940x1216_2x-1024x642.jpg"
+  },
+  {
+    "name": "Granville",
+    "city": "Vancouver",
+    "lat": 49.2746622634399, 
+    "lng": -123.13404933328809,
+    "day": "day4",
+    "img": "https://www.vancouverplanner.com/wp-content/uploads/2019/05/granville-island-produce.jpg"
+  }
+
+]
