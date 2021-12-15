@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { Table, Button, Popconfirm, Row, Col, Upload } from "antd";
+import { Table, Button, Upload } from "antd";
 import Icon from "@ant-design/icons";
 import { ExcelRenderer } from "react-excel-renderer";
-import { EditableCell } from "../utils/editable";
 
 export default class ExcelPage extends Component {
   constructor(props) {
@@ -15,44 +14,22 @@ export default class ExcelPage extends Component {
         {
           title: "LABEL",
           dataIndex: "label",
-          editable: true
         },
         {
           title: "RCV LINE",
           dataIndex: "rcvLn",
-          editable: true
         },
         {
           title: "RCV POINT",
           dataIndex: "rcvPt",
-          editable: true
         },
         {
           title: "EASTING ",
           dataIndex: "easting",
-          editable: true
         },
-        // {
-        //   title: "Action",
-        //   dataIndex: "action",
-        //   render: (text, record) =>
-        //     this.state.rows.length >= 1 ? (
-        //       <Popconfirm
-        //         title="Sure to delete?"
-        //         onConfirm={() => this.handleDelete(record.key)}
-        //       >
-        //         <Icon
-        //           type="delete"
-        //           theme="filled"
-        //           style={{ color: "red", fontSize: "20px" }}
-        //         />
-        //       </Popconfirm>
-        //     ) : null
-        // }
         {
           title: "NORTHING",
           dataIndex: "northing",
-          editable: true
         },
       ]
     };
@@ -175,21 +152,11 @@ export default class ExcelPage extends Component {
   };
 
   render() {
-    const components = {
-      body: {
-        // row: EditableFormRow,
-        cell: EditableCell
-      }
-    };
     const columns = this.state.columns.map(col => {
-      if (!col.editable) {
-        return col;
-      }
       return {
         ...col,
         onCell: record => ({
           record,
-          editable: col.editable,
           dataIndex: col.dataIndex,
           title: col.title,
           handleSave: this.handleSave
@@ -207,37 +174,6 @@ export default class ExcelPage extends Component {
           >
             Sample original receiver excel sheet
           </a>
-          {this.state.rows.length > 0 && (
-            <>
-              {/* <Button
-                onClick={this.handleAdd}
-                size="large"
-                type="info"
-                style={{ marginBottom: 16 }}
-              >
-                <Icon type="plus" />
-                Add a row
-              </Button>{" "} */}
-              <Button
-                onClick={this.handleSubmit}
-                size="large"
-                type="primary"
-                style={{ marginBottom: 16, marginLeft: 10 }}
-              >
-                Plot Data
-              </Button>
-            </>
-          )}
-        <Row gutter={16}>
-          <Col span={8}>
-          </Col>
-          <Col
-            span={8}
-            align="right"
-            style={{ display: "flex", justifyContent: "space-between" }}
-          >
-          </Col>
-        </Row>
         <div>
           <Upload
             name="file"
@@ -250,14 +186,21 @@ export default class ExcelPage extends Component {
             </Button>
           </Upload>
         </div>
-        <div style={{ marginTop: 20 }}>
-          <Table
-            components={components}
-            rowClassName={() => "editable-row"}
-            dataSource={this.state.rows}
-            columns={columns}
-          />
-        </div>
+        {this.state.rows.length > 0 && (
+            <Button
+              onClick={this.handleSubmit}
+              size="large"
+              type="primary"
+              style={{ marginBottom: 16, marginLeft: 10 }}
+            >
+              Plot Data
+            </Button>
+          )}
+        <Table
+          className="origTable"
+          dataSource={this.state.rows}
+          columns={columns}
+        />
       </div>
     );
   }
