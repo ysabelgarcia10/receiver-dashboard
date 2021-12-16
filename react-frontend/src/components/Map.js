@@ -171,7 +171,6 @@ const Map = ({ zoom }) => {
       </GoogleMapReact>
       {locationInfo && <LocationInfoBox info={locationInfo} />}
     </div>
-   
   );
 };
 

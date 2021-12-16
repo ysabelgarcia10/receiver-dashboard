@@ -181,9 +181,9 @@ export default class ExcelPage extends Component {
     });
     return (
       <div className="progLayout">
-        <h1>Importing Progress Receiver Layout (Excel)</h1>
+        <h1 className="prog-title">STEP 2: Importing Progress Receiver Layout</h1>
           <a
-            href="https://res.cloudinary.com/bryta/raw/upload/v1562751445/Sample_Excel_Sheet_muxx6s.xlsx"
+            href="https://docs.google.com/spreadsheets/d/1sTWTn959DpuoUXormhpdjCNNQAA5DzcnvXLNg3-dQdE/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             download

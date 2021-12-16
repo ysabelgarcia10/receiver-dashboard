@@ -176,9 +176,9 @@ export default class ExcelPage extends Component {
     });
     return (
       <div className="origLayout">
-        <h1>Importing Original Receiver Layout (Excel)</h1>
+        <h1 className="orig-title">STEP 1: Importing Original Receiver Layout</h1>
           <a
-            href="https://res.cloudinary.com/bryta/raw/upload/v1562751445/Sample_Excel_Sheet_muxx6s.xlsx"
+            href="https://docs.google.com/spreadsheets/d/1aoRmWz0VakSj4Psq-J1Mgij6wsZdwXU3Wk71nLnBLI0/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             download

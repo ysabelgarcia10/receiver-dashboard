@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300&display=swap');
+$light-red: #e63601;
+$font: 'Rubik', sans-serif;
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-title {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+  font-family: $font
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw
+}
+
+.tables {
+  display: flex;
+  flex-direction: row;
+  width: 90%
+}
+
+.origLayout {
+  width: 50%;
+  margin: 1rem;
+}
+
+.progLayout {
+  width: 50%;
+  margin: 1rem;
+}
+
+.prog-title, .orig-title {
+  padding: 0.75rem;
+  background-color: $light-red;
+  color: white;
+  font-family: $font;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.ant-table-wrapper {
+  margin-top: 1rem;
+}
+
+.ant-table-cell {
+  font-family: $font;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.dashboard {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-title {
+  padding: 0.75rem;
+  background-color: $light-red;
+  color: white;
+  width: 90vw;
+  align-items: center
+}
+
+
+.graphics {
+  width: 80vw;
+  // display:flex;
+  // flex-direction: row;
+  // margin-bottom: 2rem;
+}
+
+.dashboard-button {
+  color: black;
+  background: #ffffff;
+  border-color: #d9d9d9;
+}
+
+.dashboard-button:hover {
+  color: #1890ff;
+  background: #ffffff;
+  border: 1px solid #1890ff;
+}
+
+.gauge-fact{
+  font-family: $font;
+  color: $light-red;
+  font-size: 2rem;
+}
+
+.map-element {
+  z-index: 0;
+}

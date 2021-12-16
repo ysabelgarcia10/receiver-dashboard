@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import "antd/dist/antd.css";
 
 import OrigExcelPage from "./components/OrigExcel";
@@ -11,15 +11,17 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Receiver Layout Progress</h1>
+      <h1 className="app-title">Receiver Progress Dashboard</h1>
       <div className="content">
         <div className="tables">
           <OrigExcelPage/>
           <ProgExcelPage/>
         </div>
-        <Dashboard/>
+        <Dashboard className="dashboard-contents"/>
+        <div className="map-element">
+          <Map/>
+        </div>
       </div>
-      <Map/>
     </div>
   );
 }

@@ -89,14 +89,13 @@ function Dashboard() {
 
   return (
     <div className="dashboard">
-      <h1>DASHBOARD</h1>
-      <button onClick={refreshPage}>Load Dashboard</button>
-      {/* <h2>Dates #: {Object.keys(datesCompleted).map((item, i) => (
-        <h4> {item} : {datesCompleted[item]}</h4>))}  
-      </h2> */}
-      <BarChart datesCompleted={datesCompleted}/>
-      <GaugeProg percent={percentage}/>
-      <h2>{progNum} out of {origNum} completed</h2>
+      <h1 className="dashboard-title">STEP 3: Load the Dashboard</h1>
+      <button className="dashboard-button" onClick={refreshPage}>Load Dashboard</button>
+      <div className="graphics">
+        <BarChart datesCompleted={datesCompleted}/>
+        <GaugeProg percent={percentage}/>
+        <h2 className="gauge-fact">{progNum} out of {origNum} COMPLETED</h2>
+      </div>
     </div>
   )
 }
