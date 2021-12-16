@@ -12,17 +12,22 @@ const Map = ({ zoom }) => {
   const [allData, setAllData] = useState([]);
   const [valueForUseEffect, setValueForUseEffect] = useState(0)
   const [valueForUseEffect2, setValueForUseEffect2] = useState(0)
-
-  const [filteredDays, setFilteredDays] = useState([]);
-  const [dayProperties, setDayProperties] = useState([]);
-  const [markers, setMarkers] = useState(null);
-  const [itinerary, setItinerary] = useState({});
-  const [days, setDays] = useState([]);
-  const [activities, setActivities] = useState([]);
-  const [daysList, setDaysList] = useState([]);
-  const [show, setShow] = useState(daysList);
+  const [valueForUseEffect3, setValueForUseEffect3] = useState(0)
+  const [locations, setLocations] = useState([]);
   const [center, setCenter] = useState({ lat: 49.2827, lng: -123.1207 });
+  const [markers, setMarkers] = useState(null);
 
+  // const [filteredDays, setFilteredDays] = useState([]);
+  // const [dayProperties, setDayProperties] = useState([]);
+  // const [itinerary, setItinerary] = useState({});
+  // const [days, setDays] = useState([]);
+  // const [activities, setActivities] = useState([]);
+  // const [daysList, setDaysList] = useState([]);
+  // const [show, setShow] = useState(daysList);
+
+  function refreshPage() {
+    window.location.reload(false);
+  }
 
   async function fetchOrigData() {
     
@@ -55,105 +60,81 @@ const Map = ({ zoom }) => {
     combinedData.push(origData, progData)
     
     // console.log("ALL DATA FROM MAP", combinedData)
-    setAllData(combinedData)
-  }, [valueForUseEffect, valueForUseEffect2])
+    setAllData(combinedData);
 
-  console.log("ALLDATA", allData)
-  console.log("origdata", allData[0])
-  console.log("progdata", allData[1])
-
-  const locations = [];
-  const locationItem = {}
-  for (const i in allData) {
-    // console.log(allData[i])
-    for (const item in allData[i]) {
-      if (i === "0") {
-        // console.log(allData[i][item].label, allData[i][item].latitude, allData[i][item].longitude, "ORIGINAL LOCATION")
-        let locationItem = {
-          "label": allData[i][item].label,
-          "latitude": allData[i][item].latitude,
-          "longitude": allData[i][item].longitude,
-          "stat": "original location"
+    const locationsArr = [];
+    for (const i in allData) {
+      // console.log(allData[i])
+      for (const item in allData[i]) {
+        if (i === "0") {
+          let locationItem = {
+            "label": allData[i][item].label,
+            "latitude": allData[i][item].latitude,
+            "longitude": allData[i][item].longitude,
+            "stat": "original location"
+          }
+          locationsArr.push(locationItem);
+        } else {
+          let locationItem = {
+            "label": allData[i][item].label,
+            "latitude": allData[i][item].latitudeActual,
+            "longitude": parseFloat(allData[i][item].longitudeActual),
+            "stat": "actual location"
+          }
+          locationsArr.push(locationItem);
         }
-        locations.push(locationItem);
-      } else {
-        // console.log(allData[i][item].label, allData[i][item].latitudeActual, allData[i][item].longitudeActual, "ACTUAL LOCATION")
-        let locationItem = {
-          "label": allData[i][item].label,
-          "latitude": allData[i][item].latitudeActual,
-          "longitude": parseFloat(allData[i][item].longitudeActual),
-          "stat": "actual location"
-        }
-        locations.push(locationItem);
       }
-    }
-  };
+    };
+    setLocations(locationsArr)
+    // setValueForUseEffect3(1)
+  }, [origData, valueForUseEffect, valueForUseEffect2])
+
+  // console.log("ALLDATA", allData)
+  // console.log("origdata", allData[0])
+  // console.log("progdata", allData[1])
+
   console.log(locations)
-
-  //----------------------- USE EFFECT 3
-  //assign each day properties
-  // useEffect(() => {
-  //   const dayIdWithName = {};
-  //   for (const day of days) {
-  //     dayIdWithName[day.id] = day.day;
-  //   }
-
-  //   const daysProps = {};
-  //   daysList.forEach((day) => {
-  //     daysProps[day] = {};
-  //     daysProps[day].id = day;
-  //     daysProps[day].name = dayIdWithName[day];
-  //     daysProps[day].visibility = true;
-  //     daysProps[day].color = Math.floor(Math.random() * 16777215).toString(16);
-  //   });
-
-  //   setDayProperties(daysProps);
-  // }, [daysList, days]);
 
   //----------------------- USE EFFECT 5
   //show only the markers that are enabled on checkbox
   useEffect(() => {
+    console.log("inside useeffect 5, locations", locations)
     setMarkers(
-      filteredDays.map((activity) => {
-        const dayNameFromEvent = activity.day_id;
-
-        const assignedColor = !dayProperties
-          ? "000000"
-          : dayProperties[dayNameFromEvent].color;
+      locations.map((location) => {
+        const assignedColor = location.stat === "original location"? "0000ff" : "FFA500";
 
         return (
           <LocationMarker
-            key={activity.name}
-            lat={activity.lat}
-            lng={activity.long}
+            key={location.latitude}
+            name={location.label}
+            lat={location.latitude}
+            lng={location.longitude}
             color={assignedColor}
           />
         );
       })
-    );
-  }, [filteredDays, dayProperties]);
+    ); 
+  }, [valueForUseEffect2,locations]);
 
   //----------------------- USE EFFECT 6
   useEffect(() => {
     let centerLat = 0;
     let centerLong = 0;
-    let activitiesLength = 0.000001;
+    let locationsLength = 0.000001;
 
-    for (const activity of activities) {
-      centerLat += Number(activity.lat);
-      centerLong += Number(activity.long);
-      activitiesLength++;
+    for (const location of locations) {
+      centerLat += Number(location.latitude);
+      centerLong += Number(location.longitude);
+      locationsLength++;
     }
 
-    centerLat = centerLat / activitiesLength;
-    centerLong = centerLong / activitiesLength;
+    centerLat = centerLat / locationsLength;
+    centerLong = centerLong / locationsLength;
     setCenter({ lat: centerLat, lng: centerLong });
-  }, [activities]);
+  }, [valueForUseEffect2, locations]);
 
   return (
-   
     <div className="map">
-      <h2 className="map-title">{itinerary.name}</h2>
       <GoogleMapReact
         bootstrapURLKeys={{
           key: REACT_APP_API_KEY
@@ -161,7 +142,7 @@ const Map = ({ zoom }) => {
         center={center}
         defaultZoom={zoom}
       >
-        {/* {markers} */}
+        {markers}
       </GoogleMapReact>
     </div>
    
@@ -169,7 +150,7 @@ const Map = ({ zoom }) => {
 };
 
 Map.defaultProps = {
-  zoom: 12,
+  zoom: 15,
 };
 
 export default Map;
