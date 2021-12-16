@@ -24,12 +24,12 @@ const Map = ({ zoom }) => {
 
 
   async function fetchOrigData() {
-    setValueForUseEffect(1);
-
+    
     try {
       const result = await axios.get("http://localhost:8080/api/data/original")
       console.log("fetching results from original layout in maps...", result.data);
       setOrigData(result.data[0]);
+      setValueForUseEffect(1);
     } catch (error) {
       console.error(error);
     }
