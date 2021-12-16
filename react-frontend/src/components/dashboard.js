@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 // import { fetchOrigData } from "../helpers/fetchData"
 import axios from 'axios';
-
+import BarChart from "./barsPerDay.js";
 
 function Dashboard() {
   const [origData, setOrigData] = useState([]);
@@ -78,6 +78,7 @@ function Dashboard() {
       <h2>Dates #: {Object.keys(datesCompleted).map((item, i) => (
         <h4> {item} : {datesCompleted[item]}</h4>))}  
       </h2>
+      <BarChart datesCompleted={datesCompleted}/>
     </div>
   )
 }
