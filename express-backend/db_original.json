@@ -1,0 +1,2802 @@
+[
+  {
+    "LABEL": "R101-1001",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1001,
+    "EASTING": 420449,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R101-1002",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1002,
+    "EASTING": 420449,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R101-1003",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1003,
+    "EASTING": 420449,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R101-1004",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1004,
+    "EASTING": 420449,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R101-1005",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1005,
+    "EASTING": 420449,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R101-1006",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1006,
+    "EASTING": 420449,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R101-1007",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1007,
+    "EASTING": 420449,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R101-1008",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1008,
+    "EASTING": 420449,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R101-1009",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1009,
+    "EASTING": 420449,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R101-1010",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1010,
+    "EASTING": 420449,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R101-1011",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1011,
+    "EASTING": 420449,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R101-1012",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1012,
+    "EASTING": 420449,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R101-1013",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1013,
+    "EASTING": 420449,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R101-1014",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1014,
+    "EASTING": 420449,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R101-1015",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1015,
+    "EASTING": 420449,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R101-1016",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1016,
+    "EASTING": 420449,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R101-1017",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1017,
+    "EASTING": 420449,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R101-1018",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1018,
+    "EASTING": 420449,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R101-1019",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1019,
+    "EASTING": 420449,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R101-1020",
+    "RCV_LINE": "R101",
+    "RCV_POINT": 1020,
+    "EASTING": 420449,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R102-1001",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1001,
+    "EASTING": 420459,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R102-1002",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1002,
+    "EASTING": 420459,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R102-1003",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1003,
+    "EASTING": 420459,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R102-1004",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1004,
+    "EASTING": 420459,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R102-1005",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1005,
+    "EASTING": 420459,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R102-1006",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1006,
+    "EASTING": 420459,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R102-1007",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1007,
+    "EASTING": 420459,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R102-1008",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1008,
+    "EASTING": 420459,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R102-1009",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1009,
+    "EASTING": 420459,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R102-1010",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1010,
+    "EASTING": 420459,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R102-1011",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1011,
+    "EASTING": 420459,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R102-1012",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1012,
+    "EASTING": 420459,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R102-1013",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1013,
+    "EASTING": 420459,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R102-1014",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1014,
+    "EASTING": 420459,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R102-1015",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1015,
+    "EASTING": 420459,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R102-1016",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1016,
+    "EASTING": 420459,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R102-1017",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1017,
+    "EASTING": 420459,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R102-1018",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1018,
+    "EASTING": 420459,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R102-1019",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1019,
+    "EASTING": 420459,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R102-1020",
+    "RCV_LINE": "R102",
+    "RCV_POINT": 1020,
+    "EASTING": 420459,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R103-1001",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1001,
+    "EASTING": 420469,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R103-1002",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1002,
+    "EASTING": 420469,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R103-1003",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1003,
+    "EASTING": 420469,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R103-1004",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1004,
+    "EASTING": 420469,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R103-1005",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1005,
+    "EASTING": 420469,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R103-1006",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1006,
+    "EASTING": 420469,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R103-1007",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1007,
+    "EASTING": 420469,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R103-1008",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1008,
+    "EASTING": 420469,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R103-1009",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1009,
+    "EASTING": 420469,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R103-1010",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1010,
+    "EASTING": 420469,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R103-1011",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1011,
+    "EASTING": 420469,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R103-1012",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1012,
+    "EASTING": 420469,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R103-1013",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1013,
+    "EASTING": 420469,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R103-1014",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1014,
+    "EASTING": 420469,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R103-1015",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1015,
+    "EASTING": 420469,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R103-1016",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1016,
+    "EASTING": 420469,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R103-1017",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1017,
+    "EASTING": 420469,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R103-1018",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1018,
+    "EASTING": 420469,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R103-1019",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1019,
+    "EASTING": 420469,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R103-1020",
+    "RCV_LINE": "R103",
+    "RCV_POINT": 1020,
+    "EASTING": 420469,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R104-1001",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1001,
+    "EASTING": 420479,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R104-1002",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1002,
+    "EASTING": 420479,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R104-1003",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1003,
+    "EASTING": 420479,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R104-1004",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1004,
+    "EASTING": 420479,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R104-1005",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1005,
+    "EASTING": 420479,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R104-1006",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1006,
+    "EASTING": 420479,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R104-1007",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1007,
+    "EASTING": 420479,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R104-1008",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1008,
+    "EASTING": 420479,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R104-1009",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1009,
+    "EASTING": 420479,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R104-1010",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1010,
+    "EASTING": 420479,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R104-1011",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1011,
+    "EASTING": 420479,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R104-1012",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1012,
+    "EASTING": 420479,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R104-1013",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1013,
+    "EASTING": 420479,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R104-1014",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1014,
+    "EASTING": 420479,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R104-1015",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1015,
+    "EASTING": 420479,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R104-1016",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1016,
+    "EASTING": 420479,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R104-1017",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1017,
+    "EASTING": 420479,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R104-1018",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1018,
+    "EASTING": 420479,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R104-1019",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1019,
+    "EASTING": 420479,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R104-1020",
+    "RCV_LINE": "R104",
+    "RCV_POINT": 1020,
+    "EASTING": 420479,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R105-1001",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1001,
+    "EASTING": 420489,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R105-1002",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1002,
+    "EASTING": 420489,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R105-1003",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1003,
+    "EASTING": 420489,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R105-1004",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1004,
+    "EASTING": 420489,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R105-1005",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1005,
+    "EASTING": 420489,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R105-1006",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1006,
+    "EASTING": 420489,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R105-1007",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1007,
+    "EASTING": 420489,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R105-1008",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1008,
+    "EASTING": 420489,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R105-1009",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1009,
+    "EASTING": 420489,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R105-1010",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1010,
+    "EASTING": 420489,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R105-1011",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1011,
+    "EASTING": 420489,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R105-1012",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1012,
+    "EASTING": 420489,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R105-1013",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1013,
+    "EASTING": 420489,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R105-1014",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1014,
+    "EASTING": 420489,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R105-1015",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1015,
+    "EASTING": 420489,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R105-1016",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1016,
+    "EASTING": 420489,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R105-1017",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1017,
+    "EASTING": 420489,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R105-1018",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1018,
+    "EASTING": 420489,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R105-1019",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1019,
+    "EASTING": 420489,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R105-1020",
+    "RCV_LINE": "R105",
+    "RCV_POINT": 1020,
+    "EASTING": 420489,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R106-1001",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1001,
+    "EASTING": 420499,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R106-1002",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1002,
+    "EASTING": 420499,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R106-1003",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1003,
+    "EASTING": 420499,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R106-1004",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1004,
+    "EASTING": 420499,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R106-1005",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1005,
+    "EASTING": 420499,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R106-1006",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1006,
+    "EASTING": 420499,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R106-1007",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1007,
+    "EASTING": 420499,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R106-1008",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1008,
+    "EASTING": 420499,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R106-1009",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1009,
+    "EASTING": 420499,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R106-1010",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1010,
+    "EASTING": 420499,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R106-1011",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1011,
+    "EASTING": 420499,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R106-1012",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1012,
+    "EASTING": 420499,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R106-1013",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1013,
+    "EASTING": 420499,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R106-1014",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1014,
+    "EASTING": 420499,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R106-1015",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1015,
+    "EASTING": 420499,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R106-1016",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1016,
+    "EASTING": 420499,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R106-1017",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1017,
+    "EASTING": 420499,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R106-1018",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1018,
+    "EASTING": 420499,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R106-1019",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1019,
+    "EASTING": 420499,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R106-1020",
+    "RCV_LINE": "R106",
+    "RCV_POINT": 1020,
+    "EASTING": 420499,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R107-1001",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1001,
+    "EASTING": 420509,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R107-1002",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1002,
+    "EASTING": 420509,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R107-1003",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1003,
+    "EASTING": 420509,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R107-1004",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1004,
+    "EASTING": 420509,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R107-1005",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1005,
+    "EASTING": 420509,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R107-1006",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1006,
+    "EASTING": 420509,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R107-1007",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1007,
+    "EASTING": 420509,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R107-1008",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1008,
+    "EASTING": 420509,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R107-1009",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1009,
+    "EASTING": 420509,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R107-1010",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1010,
+    "EASTING": 420509,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R107-1011",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1011,
+    "EASTING": 420509,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R107-1012",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1012,
+    "EASTING": 420509,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R107-1013",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1013,
+    "EASTING": 420509,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R107-1014",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1014,
+    "EASTING": 420509,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R107-1015",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1015,
+    "EASTING": 420509,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R107-1016",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1016,
+    "EASTING": 420509,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R107-1017",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1017,
+    "EASTING": 420509,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R107-1018",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1018,
+    "EASTING": 420509,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R107-1019",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1019,
+    "EASTING": 420509,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R107-1020",
+    "RCV_LINE": "R107",
+    "RCV_POINT": 1020,
+    "EASTING": 420509,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R108-1001",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1001,
+    "EASTING": 420519,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R108-1002",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1002,
+    "EASTING": 420519,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R108-1003",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1003,
+    "EASTING": 420519,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R108-1004",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1004,
+    "EASTING": 420519,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R108-1005",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1005,
+    "EASTING": 420519,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R108-1006",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1006,
+    "EASTING": 420519,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R108-1007",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1007,
+    "EASTING": 420519,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R108-1008",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1008,
+    "EASTING": 420519,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R108-1009",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1009,
+    "EASTING": 420519,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R108-1010",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1010,
+    "EASTING": 420519,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R108-1011",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1011,
+    "EASTING": 420519,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R108-1012",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1012,
+    "EASTING": 420519,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R108-1013",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1013,
+    "EASTING": 420519,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R108-1014",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1014,
+    "EASTING": 420519,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R108-1015",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1015,
+    "EASTING": 420519,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R108-1016",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1016,
+    "EASTING": 420519,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R108-1017",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1017,
+    "EASTING": 420519,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R108-1018",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1018,
+    "EASTING": 420519,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R108-1019",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1019,
+    "EASTING": 420519,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R108-1020",
+    "RCV_LINE": "R108",
+    "RCV_POINT": 1020,
+    "EASTING": 420519,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R109-1001",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1001,
+    "EASTING": 420529,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R109-1002",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1002,
+    "EASTING": 420529,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R109-1003",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1003,
+    "EASTING": 420529,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R109-1004",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1004,
+    "EASTING": 420529,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R109-1005",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1005,
+    "EASTING": 420529,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R109-1006",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1006,
+    "EASTING": 420529,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R109-1007",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1007,
+    "EASTING": 420529,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R109-1008",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1008,
+    "EASTING": 420529,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R109-1009",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1009,
+    "EASTING": 420529,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R109-1010",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1010,
+    "EASTING": 420529,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R109-1011",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1011,
+    "EASTING": 420529,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R109-1012",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1012,
+    "EASTING": 420529,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R109-1013",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1013,
+    "EASTING": 420529,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R109-1014",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1014,
+    "EASTING": 420529,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R109-1015",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1015,
+    "EASTING": 420529,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R109-1016",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1016,
+    "EASTING": 420529,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R109-1017",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1017,
+    "EASTING": 420529,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R109-1018",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1018,
+    "EASTING": 420529,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R109-1019",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1019,
+    "EASTING": 420529,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R109-1020",
+    "RCV_LINE": "R109",
+    "RCV_POINT": 1020,
+    "EASTING": 420529,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R110-1001",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1001,
+    "EASTING": 420539,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R110-1002",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1002,
+    "EASTING": 420539,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R110-1003",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1003,
+    "EASTING": 420539,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R110-1004",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1004,
+    "EASTING": 420539,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R110-1005",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1005,
+    "EASTING": 420539,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R110-1006",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1006,
+    "EASTING": 420539,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R110-1007",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1007,
+    "EASTING": 420539,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R110-1008",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1008,
+    "EASTING": 420539,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R110-1009",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1009,
+    "EASTING": 420539,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R110-1010",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1010,
+    "EASTING": 420539,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R110-1011",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1011,
+    "EASTING": 420539,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R110-1012",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1012,
+    "EASTING": 420539,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R110-1013",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1013,
+    "EASTING": 420539,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R110-1014",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1014,
+    "EASTING": 420539,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R110-1015",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1015,
+    "EASTING": 420539,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R110-1016",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1016,
+    "EASTING": 420539,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R110-1017",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1017,
+    "EASTING": 420539,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R110-1018",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1018,
+    "EASTING": 420539,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R110-1019",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1019,
+    "EASTING": 420539,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R110-1020",
+    "RCV_LINE": "R110",
+    "RCV_POINT": 1020,
+    "EASTING": 420539,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R111-1001",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1001,
+    "EASTING": 420549,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R111-1002",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1002,
+    "EASTING": 420549,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R111-1003",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1003,
+    "EASTING": 420549,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R111-1004",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1004,
+    "EASTING": 420549,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R111-1005",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1005,
+    "EASTING": 420549,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R111-1006",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1006,
+    "EASTING": 420549,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R111-1007",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1007,
+    "EASTING": 420549,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R111-1008",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1008,
+    "EASTING": 420549,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R111-1009",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1009,
+    "EASTING": 420549,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R111-1010",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1010,
+    "EASTING": 420549,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R111-1011",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1011,
+    "EASTING": 420549,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R111-1012",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1012,
+    "EASTING": 420549,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R111-1013",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1013,
+    "EASTING": 420549,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R111-1014",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1014,
+    "EASTING": 420549,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R111-1015",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1015,
+    "EASTING": 420549,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R111-1016",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1016,
+    "EASTING": 420549,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R111-1017",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1017,
+    "EASTING": 420549,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R111-1018",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1018,
+    "EASTING": 420549,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R111-1019",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1019,
+    "EASTING": 420549,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R111-1020",
+    "RCV_LINE": "R111",
+    "RCV_POINT": 1020,
+    "EASTING": 420549,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R112-1001",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1001,
+    "EASTING": 420559,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R112-1002",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1002,
+    "EASTING": 420559,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R112-1003",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1003,
+    "EASTING": 420559,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R112-1004",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1004,
+    "EASTING": 420559,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R112-1005",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1005,
+    "EASTING": 420559,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R112-1006",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1006,
+    "EASTING": 420559,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R112-1007",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1007,
+    "EASTING": 420559,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R112-1008",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1008,
+    "EASTING": 420559,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R112-1009",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1009,
+    "EASTING": 420559,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R112-1010",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1010,
+    "EASTING": 420559,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R112-1011",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1011,
+    "EASTING": 420559,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R112-1012",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1012,
+    "EASTING": 420559,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R112-1013",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1013,
+    "EASTING": 420559,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R112-1014",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1014,
+    "EASTING": 420559,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R112-1015",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1015,
+    "EASTING": 420559,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R112-1016",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1016,
+    "EASTING": 420559,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R112-1017",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1017,
+    "EASTING": 420559,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R112-1018",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1018,
+    "EASTING": 420559,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R112-1019",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1019,
+    "EASTING": 420559,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R112-1020",
+    "RCV_LINE": "R112",
+    "RCV_POINT": 1020,
+    "EASTING": 420559,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R113-1001",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1001,
+    "EASTING": 420569,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R113-1002",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1002,
+    "EASTING": 420569,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R113-1003",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1003,
+    "EASTING": 420569,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R113-1004",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1004,
+    "EASTING": 420569,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R113-1005",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1005,
+    "EASTING": 420569,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R113-1006",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1006,
+    "EASTING": 420569,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R113-1007",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1007,
+    "EASTING": 420569,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R113-1008",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1008,
+    "EASTING": 420569,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R113-1009",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1009,
+    "EASTING": 420569,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R113-1010",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1010,
+    "EASTING": 420569,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R113-1011",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1011,
+    "EASTING": 420569,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R113-1012",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1012,
+    "EASTING": 420569,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R113-1013",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1013,
+    "EASTING": 420569,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R113-1014",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1014,
+    "EASTING": 420569,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R113-1015",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1015,
+    "EASTING": 420569,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R113-1016",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1016,
+    "EASTING": 420569,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R113-1017",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1017,
+    "EASTING": 420569,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R113-1018",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1018,
+    "EASTING": 420569,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R113-1019",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1019,
+    "EASTING": 420569,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R113-1020",
+    "RCV_LINE": "R113",
+    "RCV_POINT": 1020,
+    "EASTING": 420569,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R114-1001",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1001,
+    "EASTING": 420579,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R114-1002",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1002,
+    "EASTING": 420579,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R114-1003",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1003,
+    "EASTING": 420579,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R114-1004",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1004,
+    "EASTING": 420579,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R114-1005",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1005,
+    "EASTING": 420579,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R114-1006",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1006,
+    "EASTING": 420579,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R114-1007",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1007,
+    "EASTING": 420579,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R114-1008",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1008,
+    "EASTING": 420579,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R114-1009",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1009,
+    "EASTING": 420579,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R114-1010",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1010,
+    "EASTING": 420579,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R114-1011",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1011,
+    "EASTING": 420579,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R114-1012",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1012,
+    "EASTING": 420579,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R114-1013",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1013,
+    "EASTING": 420579,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R114-1014",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1014,
+    "EASTING": 420579,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R114-1015",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1015,
+    "EASTING": 420579,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R114-1016",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1016,
+    "EASTING": 420579,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R114-1017",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1017,
+    "EASTING": 420579,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R114-1018",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1018,
+    "EASTING": 420579,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R114-1019",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1019,
+    "EASTING": 420579,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R114-1020",
+    "RCV_LINE": "R114",
+    "RCV_POINT": 1020,
+    "EASTING": 420579,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R115-1001",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1001,
+    "EASTING": 420589,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R115-1002",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1002,
+    "EASTING": 420589,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R115-1003",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1003,
+    "EASTING": 420589,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R115-1004",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1004,
+    "EASTING": 420589,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R115-1005",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1005,
+    "EASTING": 420589,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R115-1006",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1006,
+    "EASTING": 420589,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R115-1007",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1007,
+    "EASTING": 420589,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R115-1008",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1008,
+    "EASTING": 420589,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R115-1009",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1009,
+    "EASTING": 420589,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R115-1010",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1010,
+    "EASTING": 420589,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R115-1011",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1011,
+    "EASTING": 420589,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R115-1012",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1012,
+    "EASTING": 420589,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R115-1013",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1013,
+    "EASTING": 420589,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R115-1014",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1014,
+    "EASTING": 420589,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R115-1015",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1015,
+    "EASTING": 420589,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R115-1016",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1016,
+    "EASTING": 420589,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R115-1017",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1017,
+    "EASTING": 420589,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R115-1018",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1018,
+    "EASTING": 420589,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R115-1019",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1019,
+    "EASTING": 420589,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R115-1020",
+    "RCV_LINE": "R115",
+    "RCV_POINT": 1020,
+    "EASTING": 420589,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R116-1001",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1001,
+    "EASTING": 420599,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R116-1002",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1002,
+    "EASTING": 420599,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R116-1003",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1003,
+    "EASTING": 420599,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R116-1004",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1004,
+    "EASTING": 420599,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R116-1005",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1005,
+    "EASTING": 420599,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R116-1006",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1006,
+    "EASTING": 420599,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R116-1007",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1007,
+    "EASTING": 420599,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R116-1008",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1008,
+    "EASTING": 420599,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R116-1009",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1009,
+    "EASTING": 420599,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R116-1010",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1010,
+    "EASTING": 420599,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R116-1011",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1011,
+    "EASTING": 420599,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R116-1012",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1012,
+    "EASTING": 420599,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R116-1013",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1013,
+    "EASTING": 420599,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R116-1014",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1014,
+    "EASTING": 420599,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R116-1015",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1015,
+    "EASTING": 420599,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R116-1016",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1016,
+    "EASTING": 420599,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R116-1017",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1017,
+    "EASTING": 420599,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R116-1018",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1018,
+    "EASTING": 420599,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R116-1019",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1019,
+    "EASTING": 420599,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R116-1020",
+    "RCV_LINE": "R116",
+    "RCV_POINT": 1020,
+    "EASTING": 420599,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R117-1001",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1001,
+    "EASTING": 420609,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R117-1002",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1002,
+    "EASTING": 420609,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R117-1003",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1003,
+    "EASTING": 420609,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R117-1004",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1004,
+    "EASTING": 420609,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R117-1005",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1005,
+    "EASTING": 420609,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R117-1006",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1006,
+    "EASTING": 420609,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R117-1007",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1007,
+    "EASTING": 420609,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R117-1008",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1008,
+    "EASTING": 420609,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R117-1009",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1009,
+    "EASTING": 420609,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R117-1010",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1010,
+    "EASTING": 420609,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R117-1011",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1011,
+    "EASTING": 420609,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R117-1012",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1012,
+    "EASTING": 420609,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R117-1013",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1013,
+    "EASTING": 420609,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R117-1014",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1014,
+    "EASTING": 420609,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R117-1015",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1015,
+    "EASTING": 420609,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R117-1016",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1016,
+    "EASTING": 420609,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R117-1017",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1017,
+    "EASTING": 420609,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R117-1018",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1018,
+    "EASTING": 420609,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R117-1019",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1019,
+    "EASTING": 420609,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R117-1020",
+    "RCV_LINE": "R117",
+    "RCV_POINT": 1020,
+    "EASTING": 420609,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R118-1001",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1001,
+    "EASTING": 420619,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R118-1002",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1002,
+    "EASTING": 420619,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R118-1003",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1003,
+    "EASTING": 420619,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R118-1004",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1004,
+    "EASTING": 420619,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R118-1005",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1005,
+    "EASTING": 420619,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R118-1006",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1006,
+    "EASTING": 420619,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R118-1007",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1007,
+    "EASTING": 420619,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R118-1008",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1008,
+    "EASTING": 420619,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R118-1009",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1009,
+    "EASTING": 420619,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R118-1010",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1010,
+    "EASTING": 420619,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R118-1011",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1011,
+    "EASTING": 420619,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R118-1012",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1012,
+    "EASTING": 420619,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R118-1013",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1013,
+    "EASTING": 420619,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R118-1014",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1014,
+    "EASTING": 420619,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R118-1015",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1015,
+    "EASTING": 420619,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R118-1016",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1016,
+    "EASTING": 420619,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R118-1017",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1017,
+    "EASTING": 420619,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R118-1018",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1018,
+    "EASTING": 420619,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R118-1019",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1019,
+    "EASTING": 420619,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R118-1020",
+    "RCV_LINE": "R118",
+    "RCV_POINT": 1020,
+    "EASTING": 420619,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R119-1001",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1001,
+    "EASTING": 420629,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R119-1002",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1002,
+    "EASTING": 420629,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R119-1003",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1003,
+    "EASTING": 420629,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R119-1004",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1004,
+    "EASTING": 420629,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R119-1005",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1005,
+    "EASTING": 420629,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R119-1006",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1006,
+    "EASTING": 420629,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R119-1007",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1007,
+    "EASTING": 420629,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R119-1008",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1008,
+    "EASTING": 420629,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R119-1009",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1009,
+    "EASTING": 420629,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R119-1010",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1010,
+    "EASTING": 420629,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R119-1011",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1011,
+    "EASTING": 420629,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R119-1012",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1012,
+    "EASTING": 420629,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R119-1013",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1013,
+    "EASTING": 420629,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R119-1014",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1014,
+    "EASTING": 420629,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R119-1015",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1015,
+    "EASTING": 420629,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R119-1016",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1016,
+    "EASTING": 420629,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R119-1017",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1017,
+    "EASTING": 420629,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R119-1018",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1018,
+    "EASTING": 420629,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R119-1019",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1019,
+    "EASTING": 420629,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R119-1020",
+    "RCV_LINE": "R119",
+    "RCV_POINT": 1020,
+    "EASTING": 420629,
+    "NORTHING": 5594950
+  },
+  {
+    "LABEL": "R120-1001",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1001,
+    "EASTING": 420639,
+    "NORTHING": 5594760
+  },
+  {
+    "LABEL": "R120-1002",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1002,
+    "EASTING": 420639,
+    "NORTHING": 5594770
+  },
+  {
+    "LABEL": "R120-1003",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1003,
+    "EASTING": 420639,
+    "NORTHING": 5594780
+  },
+  {
+    "LABEL": "R120-1004",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1004,
+    "EASTING": 420639,
+    "NORTHING": 5594790
+  },
+  {
+    "LABEL": "R120-1005",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1005,
+    "EASTING": 420639,
+    "NORTHING": 5594800
+  },
+  {
+    "LABEL": "R120-1006",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1006,
+    "EASTING": 420639,
+    "NORTHING": 5594810
+  },
+  {
+    "LABEL": "R120-1007",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1007,
+    "EASTING": 420639,
+    "NORTHING": 5594820
+  },
+  {
+    "LABEL": "R120-1008",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1008,
+    "EASTING": 420639,
+    "NORTHING": 5594830
+  },
+  {
+    "LABEL": "R120-1009",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1009,
+    "EASTING": 420639,
+    "NORTHING": 5594840
+  },
+  {
+    "LABEL": "R120-1010",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1010,
+    "EASTING": 420639,
+    "NORTHING": 5594850
+  },
+  {
+    "LABEL": "R120-1011",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1011,
+    "EASTING": 420639,
+    "NORTHING": 5594860
+  },
+  {
+    "LABEL": "R120-1012",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1012,
+    "EASTING": 420639,
+    "NORTHING": 5594870
+  },
+  {
+    "LABEL": "R120-1013",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1013,
+    "EASTING": 420639,
+    "NORTHING": 5594880
+  },
+  {
+    "LABEL": "R120-1014",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1014,
+    "EASTING": 420639,
+    "NORTHING": 5594890
+  },
+  {
+    "LABEL": "R120-1015",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1015,
+    "EASTING": 420639,
+    "NORTHING": 5594900
+  },
+  {
+    "LABEL": "R120-1016",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1016,
+    "EASTING": 420639,
+    "NORTHING": 5594910
+  },
+  {
+    "LABEL": "R120-1017",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1017,
+    "EASTING": 420639,
+    "NORTHING": 5594920
+  },
+  {
+    "LABEL": "R120-1018",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1018,
+    "EASTING": 420639,
+    "NORTHING": 5594930
+  },
+  {
+    "LABEL": "R120-1019",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1019,
+    "EASTING": 420639,
+    "NORTHING": 5594940
+  },
+  {
+    "LABEL": "R120-1020",
+    "RCV_LINE": "R120",
+    "RCV_POINT": 1020,
+    "EASTING": 420639,
+    "NORTHING": 5594950
+  }
+ ]

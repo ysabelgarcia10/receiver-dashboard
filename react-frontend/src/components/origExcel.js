@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Table, Button, Upload } from "antd";
 import Icon from "@ant-design/icons";
 import { ExcelRenderer } from "react-excel-renderer";
-import { fetchOrigData } from "../helpers/fetchData"
+// import { fetchOrigData } from "../helpers/fetchData"
 
 export default class ExcelPage extends Component {
   constructor(props) {
@@ -129,10 +129,18 @@ export default class ExcelPage extends Component {
     console.log("submitting: ", this.state.rows);
     //submit to API
     //if successful, banigate and clear the data
-    //this.setState({ rows: [] })
+    // this.setState({ rows: [] })
     console.log("fetching orig data")
-    fetchOrigData();
+    const receiver = this.state.rows
+    console.log("ORIGINAL RECEIVERS", receiver)
+
+    fetch("http://localhost:8080/api/data/original", {
+      method:'POST', 
+      headers: { "Content-Type": "application/json"}, 
+      body: JSON.stringify(receiver)
+    })
   };
+
 
   handleDelete = key => {
     const rows = [...this.state.rows];
@@ -198,6 +206,7 @@ export default class ExcelPage extends Component {
             >
               Plot Data
             </Button>
+            //need to push it to convert it to
           )}
         <Table
           className="origTable"
