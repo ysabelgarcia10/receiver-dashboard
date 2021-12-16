@@ -2,11 +2,13 @@ import React, {useEffect, useState} from "react";
 // import { fetchOrigData } from "../helpers/fetchData"
 import axios from 'axios';
 import BarChart from "./barsPerDay.js";
+import GaugeProg from "./gauge.js";
 
 function Dashboard() {
   const [origData, setOrigData] = useState([]);
   const [progData, setProgData] = useState([]);
   const [datesCompleted, setDatesCompleted] = useState({});
+  const [percentage, setPercentage] = useState(0);
 
   function refreshPage() {
     window.location.reload(false);
@@ -16,6 +18,10 @@ function Dashboard() {
     fetchOrigData();
     fetchProgData();
   }, []);
+
+  useEffect(() => {
+    getPercentage();
+  }, [progData])
 
   async function fetchOrigData() {
     try {
@@ -66,19 +72,27 @@ function Dashboard() {
     }
   }
 
+  async function getPercentage() {
+    try {
+      await origData[0].length;
+      await progData[0].length;
+      const percentageComplete = origData[0].length/progData[0].length;
+      setPercentage(percentageComplete);
+    } catch(error) {
+      console.log(error)
+    }
+  };
+
   return (
     <div className="dashboard">
       <h1>DASHBOARD</h1>
       <button onClick={refreshPage}>Load Dashboard</button>
-      {origData.length === 0 ? 0 :
-      <h2>Original Rcvs #: {origData[0].length}</h2>}
-      <br></br>
-      {progData.length === 0 ? 0 :
-      <h2>Progress Rcvs #: {progData[0].length}</h2>}
-      <h2>Dates #: {Object.keys(datesCompleted).map((item, i) => (
+      {/* <h2>Dates #: {Object.keys(datesCompleted).map((item, i) => (
         <h4> {item} : {datesCompleted[item]}</h4>))}  
-      </h2>
+      </h2> */}
       <BarChart datesCompleted={datesCompleted}/>
+      <GaugeProg percent={percentage}/>
+      <h2>{progData[0].length} out of {origData[0].length} completed</h2>
     </div>
   )
 }
