@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import GoogleMapReact from "google-map-react";
 import LocationMarker from "../components/Map/LocationMarker";
+import LocationInfoBox from "../components/Map/LocationInfoBox";
 import axios from "axios";
 import "../styles/map.scss"
 
@@ -14,8 +15,9 @@ const Map = ({ zoom }) => {
   const [valueForUseEffect2, setValueForUseEffect2] = useState(0)
   const [valueForUseEffect3, setValueForUseEffect3] = useState(0)
   const [locations, setLocations] = useState([]);
-  const [center, setCenter] = useState({ lat: 49.2827, lng: -123.1207 });
+  const [center, setCenter] = useState({ lat: 50.5, lng: -112.12 });
   const [markers, setMarkers] = useState(null);
+  const [locationInfo, setLocationInfo] = useState(null);
 
   // const [filteredDays, setFilteredDays] = useState([]);
   // const [dayProperties, setDayProperties] = useState([]);
@@ -66,7 +68,7 @@ const Map = ({ zoom }) => {
     setAllData(combinedData);
   }, [valueForUseEffect, valueForUseEffect2])
 
-  console.log(allData)
+  // console.log(allData)
 
   useEffect(() => {
     const locationsArr = [];
@@ -78,7 +80,8 @@ const Map = ({ zoom }) => {
             "label": allData[i][item].label,
             "latitude": allData[i][item].latitude,
             "longitude": allData[i][item].longitude,
-            "stat": "original location"
+            "stat": "original location",
+            "rcvTime": "not completed"
           }
           locationsArr.push(locationItem);
         } else {
@@ -86,7 +89,8 @@ const Map = ({ zoom }) => {
             "label": allData[i][item].label,
             "latitude": allData[i][item].latitudeActual,
             "longitude": parseFloat(allData[i][item].longitudeActual),
-            "stat": "actual location"
+            "stat": "actual location",
+            "rcvTime": allData[i][item].rcvTime
           }
           locationsArr.push(locationItem);
         }
@@ -117,28 +121,42 @@ const Map = ({ zoom }) => {
             lat={location.latitude}
             lng={location.longitude}
             color={assignedColor}
+            onClick={() =>
+              setLocationInfo({
+                label: location.label,
+                longitude: location.longitude,
+                latitude: location.latitude,
+                stat: location.stat,
+                rcvTime: location.rcvTime
+              })
+            }
           />
         );
       })
     ); 
+    // setValueForUseEffect3(1);
   }, [valueForUseEffect2,locations]);
 
   //----------------------- USE EFFECT 6
-  useEffect(() => {
-    let centerLat = 0;
-    let centerLong = 0;
-    let locationsLength = 0.000001;
+  // useEffect(() => {
+  //   let centerLat = 0;
+  //   let centerLong = 0;
+  //   let locationsLength = 0.000001;
 
-    for (const location of locations) {
-      centerLat += Number(location.latitude);
-      centerLong += Number(location.longitude);
-      locationsLength++;
-    }
+  //   console.log("locations, insude use effect 6", locations)
+  //   for (const location of locations) {
+  //     // console.log("onelocation", location)
+  //     centerLat += Number(location.latitude);
+  //     centerLong += Number(location.longitude);
+  //     locationsLength++;
+  //   }
 
-    centerLat = centerLat / locationsLength;
-    centerLong = centerLong / locationsLength;
-    setCenter({ lat: centerLat, lng: centerLong });
-  }, [locations]);
+  //   centerLat = centerLat / locationsLength;
+  //   centerLong = centerLong / locationsLength;
+  //   setCenter({ lat: centerLat, lng: centerLong });
+  // }, [locations, valueForUseEffect3]);
+
+  // console.log("Center", center)
 
   return (
     <div className="map">
@@ -151,6 +169,7 @@ const Map = ({ zoom }) => {
       >
         {markers}
       </GoogleMapReact>
+      {locationInfo && <LocationInfoBox info={locationInfo} />}
     </div>
    
   );
