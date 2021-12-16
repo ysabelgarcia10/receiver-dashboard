@@ -24,13 +24,8 @@ const Map = ({ zoom }) => {
   // const [activities, setActivities] = useState([]);
   // const [daysList, setDaysList] = useState([]);
   // const [show, setShow] = useState(daysList);
-
-  function refreshPage() {
-    window.location.reload(false);
-  }
-
+  
   async function fetchOrigData() {
-    
     try {
       const result = await axios.get("http://localhost:8080/api/data/original")
       // console.log("fetching results from original layout in maps...", result.data);
@@ -56,12 +51,24 @@ const Map = ({ zoom }) => {
     fetchOrigData();
     fetchProgData();
 
+    // const combinedData = [];
+    // combinedData.push(origData, progData)
+    
+    // // console.log("ALL DATA FROM MAP", combinedData)
+    // setAllData(combinedData);
+  }, [])
+
+  useEffect(() => {
     const combinedData = [];
     combinedData.push(origData, progData)
     
     // console.log("ALL DATA FROM MAP", combinedData)
     setAllData(combinedData);
+  }, [valueForUseEffect, valueForUseEffect2])
 
+  console.log(allData)
+
+  useEffect(() => {
     const locationsArr = [];
     for (const i in allData) {
       // console.log(allData[i])
@@ -87,13 +94,13 @@ const Map = ({ zoom }) => {
     };
     setLocations(locationsArr)
     // setValueForUseEffect3(1)
-  }, [origData, valueForUseEffect, valueForUseEffect2])
+  }, [allData])
 
   // console.log("ALLDATA", allData)
   // console.log("origdata", allData[0])
   // console.log("progdata", allData[1])
 
-  console.log(locations)
+  // console.log(locations)
 
   //----------------------- USE EFFECT 5
   //show only the markers that are enabled on checkbox
@@ -131,7 +138,7 @@ const Map = ({ zoom }) => {
     centerLat = centerLat / locationsLength;
     centerLong = centerLong / locationsLength;
     setCenter({ lat: centerLat, lng: centerLong });
-  }, [valueForUseEffect2, locations]);
+  }, [locations]);
 
   return (
     <div className="map">
