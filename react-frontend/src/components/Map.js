@@ -11,6 +11,7 @@ const Map = ({ zoom }) => {
   const [progData, setProgData] = useState([]);
   const [allData, setAllData] = useState([]);
   const [valueForUseEffect, setValueForUseEffect] = useState(0)
+  const [valueForUseEffect2, setValueForUseEffect2] = useState(0)
 
   const [filteredDays, setFilteredDays] = useState([]);
   const [dayProperties, setDayProperties] = useState([]);
@@ -27,7 +28,7 @@ const Map = ({ zoom }) => {
     
     try {
       const result = await axios.get("http://localhost:8080/api/data/original")
-      console.log("fetching results from original layout in maps...", result.data);
+      // console.log("fetching results from original layout in maps...", result.data);
       setOrigData(result.data[0]);
       setValueForUseEffect(1);
     } catch (error) {
@@ -38,8 +39,9 @@ const Map = ({ zoom }) => {
   async function fetchProgData() {
     try {
       const result = await axios.get("http://localhost:8080/api/data/progress")
-      console.log("fetching results from progress layout in maps...", result.data);
+      // console.log("fetching results from progress layout in maps...", result.data);
       setProgData(result.data[0]);
+      setValueForUseEffect2(1);
     } catch (error) {
       console.error(error);
     }
@@ -50,31 +52,63 @@ const Map = ({ zoom }) => {
     fetchProgData();
 
     const combinedData = [];
-    allData.push(origData, progData)
+    combinedData.push(origData, progData)
     
-    console.log("ALL DATA FROM MAP", allData)
+    // console.log("ALL DATA FROM MAP", combinedData)
     setAllData(combinedData)
-  }, [valueForUseEffect])
+  }, [valueForUseEffect, valueForUseEffect2])
+
+  console.log("ALLDATA", allData)
+  console.log("origdata", allData[0])
+  console.log("progdata", allData[1])
+
+  const locations = [];
+  const locationItem = {}
+  for (const i in allData) {
+    // console.log(allData[i])
+    for (const item in allData[i]) {
+      if (i === "0") {
+        // console.log(allData[i][item].label, allData[i][item].latitude, allData[i][item].longitude, "ORIGINAL LOCATION")
+        let locationItem = {
+          "label": allData[i][item].label,
+          "latitude": allData[i][item].latitude,
+          "longitude": allData[i][item].longitude,
+          "stat": "original location"
+        }
+        locations.push(locationItem);
+      } else {
+        // console.log(allData[i][item].label, allData[i][item].latitudeActual, allData[i][item].longitudeActual, "ACTUAL LOCATION")
+        let locationItem = {
+          "label": allData[i][item].label,
+          "latitude": allData[i][item].latitudeActual,
+          "longitude": parseFloat(allData[i][item].longitudeActual),
+          "stat": "actual location"
+        }
+        locations.push(locationItem);
+      }
+    }
+  };
+  console.log(locations)
 
   //----------------------- USE EFFECT 3
   //assign each day properties
-  useEffect(() => {
-    const dayIdWithName = {};
-    for (const day of days) {
-      dayIdWithName[day.id] = day.day;
-    }
+  // useEffect(() => {
+  //   const dayIdWithName = {};
+  //   for (const day of days) {
+  //     dayIdWithName[day.id] = day.day;
+  //   }
 
-    const daysProps = {};
-    daysList.forEach((day) => {
-      daysProps[day] = {};
-      daysProps[day].id = day;
-      daysProps[day].name = dayIdWithName[day];
-      daysProps[day].visibility = true;
-      daysProps[day].color = Math.floor(Math.random() * 16777215).toString(16);
-    });
+  //   const daysProps = {};
+  //   daysList.forEach((day) => {
+  //     daysProps[day] = {};
+  //     daysProps[day].id = day;
+  //     daysProps[day].name = dayIdWithName[day];
+  //     daysProps[day].visibility = true;
+  //     daysProps[day].color = Math.floor(Math.random() * 16777215).toString(16);
+  //   });
 
-    setDayProperties(daysProps);
-  }, [daysList, days]);
+  //   setDayProperties(daysProps);
+  // }, [daysList, days]);
 
   //----------------------- USE EFFECT 5
   //show only the markers that are enabled on checkbox

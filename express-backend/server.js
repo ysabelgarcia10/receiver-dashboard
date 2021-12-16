@@ -33,7 +33,7 @@ App.use(Express.static("public"));
 
 let origReceivers = [];
 App.post("/api/data/original", function(req, res) {
-  console.log("POST REQUEST");
+  // console.log("POST REQUEST");
   // console.log(req.body)
   const newReceiver = req.body;
 
@@ -42,7 +42,7 @@ App.post("/api/data/original", function(req, res) {
 });
 
 App.get("/api/data/original", function(req, res) {
-  console.log("GET REQUEST");
+  // console.log("GET REQUEST");
   res.writeHead(200, {
     'Content-Type': 'application/json',
   });
@@ -52,7 +52,7 @@ App.get("/api/data/original", function(req, res) {
 
 let progressReceivers = [];
 App.post("/api/data/progress", function(req, res) {
-  console.log("POST REQUEST");
+  // console.log("POST REQUEST");
   // console.log(req.body)
   const newReceiver = req.body;
 
@@ -61,7 +61,7 @@ App.post("/api/data/progress", function(req, res) {
 });
 
 App.get("/api/data/progress", function(req, res) {
-  console.log("GET REQUEST");
+  // console.log("GET REQUEST");
   res.writeHead(200, {
     'Content-Type': 'application/json',
   });
