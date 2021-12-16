@@ -8,6 +8,8 @@ function Dashboard() {
   const [origData, setOrigData] = useState([]);
   const [progData, setProgData] = useState([]);
   const [datesCompleted, setDatesCompleted] = useState({});
+  const [origNum, setOrigNum] = useState(0);
+  const [progNum, setProgNum] = useState(0);
   const [percentage, setPercentage] = useState(0);
 
   function refreshPage() {
@@ -21,7 +23,7 @@ function Dashboard() {
 
   useEffect(() => {
     getPercentage();
-  }, [progData])
+  }, [origData, progData])
 
   async function fetchOrigData() {
     try {
@@ -76,6 +78,8 @@ function Dashboard() {
     try {
       await origData[0].length;
       await progData[0].length;
+      setOrigNum(origData[0].length);
+      setProgNum(progData[0].length);
       const percentageComplete = origData[0].length/progData[0].length;
       setPercentage(percentageComplete);
     } catch(error) {
@@ -92,7 +96,7 @@ function Dashboard() {
       </h2> */}
       <BarChart datesCompleted={datesCompleted}/>
       <GaugeProg percent={percentage}/>
-      <h2>{progData[0].length} out of {origData[0].length} completed</h2>
+      <h2>{progNum} out of {origNum} completed</h2>
     </div>
   )
 }
