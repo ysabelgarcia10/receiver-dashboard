@@ -21,6 +21,7 @@ function App() {
         <div className="map-element">
           <Map/>
         </div>
+        <h4 className="credits">Created By: Y. Garcia 2021</h4>
       </div>
     </div>
   );
