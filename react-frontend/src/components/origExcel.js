@@ -25,12 +25,12 @@ export default class ExcelPage extends Component {
           dataIndex: "rcvPt",
         },
         {
-          title: "EASTING ",
-          dataIndex: "easting",
+          title: "LONGITUDE ",
+          dataIndex: "longitude",
         },
         {
-          title: "NORTHING",
-          dataIndex: "northing",
+          title: "LATITUDE",
+          dataIndex: "latitude",
         },
       ]
     };
@@ -103,8 +103,8 @@ export default class ExcelPage extends Component {
               label: row[0], 
               rcvLn: row[1],
               rcvPt: row[2],
-              easting: row[3],
-              northing: row[4] 
+              longitude: row[3],
+              latitude: row[4] 
             });
           }
         });
@@ -152,8 +152,8 @@ export default class ExcelPage extends Component {
       key: count,
       rcvLn: "RCV LINE",
       rcvPt: "RCV POINT",
-      easting: "EASTING", 
-      northing: "NORTHING", 
+      longitude: "LONGITUDE", 
+      latitude: "LATITUDE", 
       label: "LABEL"
     };
     this.setState({
