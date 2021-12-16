@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
 // import { fetchOrigData } from "../helpers/fetchData"
 import axios from 'axios';
-import BarChart from "./barsPerDay.js";
-import GaugeProg from "./gauge.js";
+import BarChart from "./BarsPerDay.js";
+import GaugeProg from "./Gauge.js";
 
 function Dashboard() {
   const [origData, setOrigData] = useState([]);

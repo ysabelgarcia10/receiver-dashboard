@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+
+$light-yellow: #fffceb;
+$medium-yellow: #f7e34d;
+$dark-yellow: #ffee00;
+$light-blue: #DADEF0;
+$dark-blue: #657ABB;
+$font: 'Quicksand', sans-serif;
+
+.map {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: 80vh;
+  // position: relative;
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 6rem;
+  left: 0.75rem;
+  border-radius: 2rem;
+  max-width: 30%;
+  background-color: white;
+  box-shadow: 0.2rem 0.2rem $light-blue;
+}
+
+.location-img {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem 2rem 0 0;
+  height: auto;
+}
+
+.location-name {
+  display: flex;
+  justify-content: center;
+}
+
+//checkbox
+.MuiList-root.MuiList-padding.css-1mcnwpj-MuiList-root{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $light-yellow;
+  width: 80vw;
+}
+
+//item in checkbox hover
+.MuiListItemButton-root.MuiListItemButton-dense.MuiListItemButton-gutters.MuiButtonBase-root.css-19qfc49-MuiButtonBase-root-MuiListItemButton-root:hover{
+  border-radius: 2rem;
+  background-color: $light-blue;
+}
+

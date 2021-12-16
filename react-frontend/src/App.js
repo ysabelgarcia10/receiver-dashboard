@@ -2,9 +2,10 @@ import React from 'react';
 import './App.css';
 import "antd/dist/antd.css";
 
-import OrigExcelPage from "./components/origExcel";
-import ProgExcelPage from "./components/progExcel";
-import Dashboard from "./components/dashboard";
+import OrigExcelPage from "./components/OrigExcel";
+import ProgExcelPage from "./components/ProgExcel";
+import Dashboard from "./components/Dashboard";
+import Map from "./components/Map";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         </div>
         <Dashboard/>
       </div>
+      <Map/>
     </div>
   );
 }
