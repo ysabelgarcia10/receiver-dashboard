@@ -28,7 +28,7 @@ function Dashboard() {
   async function fetchOrigData() {
     try {
       const result = await axios.get("http://localhost:8080/api/data/original")
-      console.log("fetching results from original layout...", result.data);
+      // console.log("fetching results from original layout...", result.data);
       setOrigData(result.data);
     } catch (error) {
       console.error(error);
@@ -38,20 +38,20 @@ function Dashboard() {
   async function fetchProgData() {
     try {
       const result = await axios.get("http://localhost:8080/api/data/progress")
-      console.log("fetching results from progress layout...", result.data);
+      // console.log("fetching results from progress layout...", result.data);
       setProgData(result.data);
 
       const allDates = [];
       const uniqueDates = {};
       for (const r of result.data[0]) {
-        console.log(r)
+        // console.log(r)
         const dateTimeOnly = r.rcvTime
         const dateOnly = dateTimeOnly.slice(0, dateTimeOnly.indexOf(" "))
         allDates.push(dateOnly);
       };
 
       for (const day of allDates) {
-        console.log("Day", day)
+        // console.log("Day", day)
         if (!uniqueDates[day]) {
           uniqueDates[day] = 1;
         } else {
@@ -59,14 +59,14 @@ function Dashboard() {
         }
       }
       setDatesCompleted(uniqueDates);
-      console.log(uniqueDates);
+      // console.log(uniqueDates);
       
     } catch (error) {
       console.error(error);
     }
   };
   
-  console.log("outside", datesCompleted)
+  // console.log("outside", datesCompleted)
   function listDates(datesCompleted) {
     for (const [key, value] of Object.entries(datesCompleted)) {
       // console.log("mapping", `${key}: ${value}`)

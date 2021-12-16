@@ -8,6 +8,9 @@ const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
 
 const Map = ({ zoom }) => {
   const [origData, setOrigData] = useState([]);
+  const [progData, setProgData] = useState([]);
+  const [allData, setAllData] = useState([]);
+  const [valueForUseEffect, setValueForUseEffect] = useState(0)
 
   const [filteredDays, setFilteredDays] = useState([]);
   const [dayProperties, setDayProperties] = useState([]);
@@ -19,30 +22,39 @@ const Map = ({ zoom }) => {
   const [show, setShow] = useState(daysList);
   const [center, setCenter] = useState({ lat: 49.2827, lng: -123.1207 });
 
-  const allData = [];
-
-  // async function getData(id) {
-  //   return fetch(`http://localhost:8080/api/itinerary/${id}/map`, {
-  //     method: "GET",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   }).then((data) => {
-  //     return data.json();
-  //   });
-  // }
 
   async function fetchOrigData() {
+    setValueForUseEffect(1);
+
     try {
       const result = await axios.get("http://localhost:8080/api/data/original")
       console.log("fetching results from original layout in maps...", result.data);
-      allData.push(result.data[0]);
+      setOrigData(result.data[0]);
     } catch (error) {
       console.error(error);
     }
   };
 
-  console.log("ALL DATA FROM MAP", allData)
+  async function fetchProgData() {
+    try {
+      const result = await axios.get("http://localhost:8080/api/data/progress")
+      console.log("fetching results from progress layout in maps...", result.data);
+      setProgData(result.data[0]);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  useEffect(() => {
+    fetchOrigData();
+    fetchProgData();
+
+    const combinedData = [];
+    allData.push(origData, progData)
+    
+    console.log("ALL DATA FROM MAP", allData)
+    setAllData(combinedData)
+  }, [valueForUseEffect])
 
   //----------------------- USE EFFECT 3
   //assign each day properties
@@ -63,10 +75,6 @@ const Map = ({ zoom }) => {
 
     setDayProperties(daysProps);
   }, [daysList, days]);
-
-  const handleCallback = (childData) => {
-    setShow(childData); // childData = ["day1", "day2", "day3", "day4"]
-  };
 
   //----------------------- USE EFFECT 5
   //show only the markers that are enabled on checkbox
@@ -90,9 +98,6 @@ const Map = ({ zoom }) => {
       })
     );
   }, [filteredDays, dayProperties]);
-
-  const start_date = new Date(itinerary.start_date);
-  const end_date = new Date(itinerary.end_date);
 
   //----------------------- USE EFFECT 6
   useEffect(() => {

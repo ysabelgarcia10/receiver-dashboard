@@ -34,11 +34,11 @@ App.use(Express.static("public"));
 let origReceivers = [];
 App.post("/api/data/original", function(req, res) {
   console.log("POST REQUEST");
-  console.log(req.body)
+  // console.log(req.body)
   const newReceiver = req.body;
 
   origReceivers.push(newReceiver);
-  console.log(origReceivers);
+  // console.log(origReceivers);
 });
 
 App.get("/api/data/original", function(req, res) {
@@ -46,18 +46,18 @@ App.get("/api/data/original", function(req, res) {
   res.writeHead(200, {
     'Content-Type': 'application/json',
   });
-  console.log('Receivers : ', JSON.stringify(origReceivers));
+  // console.log('Receivers : ', JSON.stringify(origReceivers));
   res.end(JSON.stringify(origReceivers));
 });
 
 let progressReceivers = [];
 App.post("/api/data/progress", function(req, res) {
   console.log("POST REQUEST");
-  console.log(req.body)
+  // console.log(req.body)
   const newReceiver = req.body;
 
   progressReceivers.push(newReceiver);
-  console.log(progressReceivers);
+  // console.log(progressReceivers);
 });
 
 App.get("/api/data/progress", function(req, res) {
@@ -65,7 +65,7 @@ App.get("/api/data/progress", function(req, res) {
   res.writeHead(200, {
     'Content-Type': 'application/json',
   });
-  console.log('Receivers : ', JSON.stringify(progressReceivers));
+  // console.log('Receivers : ', JSON.stringify(progressReceivers));
   res.end(JSON.stringify(progressReceivers));
 });
 

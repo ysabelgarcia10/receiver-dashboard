@@ -126,13 +126,13 @@ export default class ExcelPage extends Component {
   };
 
   handleSubmit = async () => {
-    console.log("submitting: ", this.state.rows);
+    // console.log("submitting: ", this.state.rows);
     //submit to API
     //if successful, banigate and clear the data
     // this.setState({ rows: [] })
-    console.log("fetching orig data")
+    // console.log("fetching orig data")
     const receiver = this.state.rows
-    console.log("ORIGINAL RECEIVERS", receiver)
+    // console.log("ORIGINAL RECEIVERS", receiver)
 
     fetch("http://localhost:8080/api/data/original", {
       method:'POST', 
